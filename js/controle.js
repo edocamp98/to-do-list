@@ -5,6 +5,7 @@ let btnAdd = document.getElementById('btn-add');
 let main = document.getElementById('areaLista');
 
 function addTarefa(){
+    
     //pegar valor do input
     let valorInput = input.value;
 
@@ -22,8 +23,8 @@ function addTarefa(){
                 <button class="delete" onclick="deletar(${contador})"><span class="material-symbols-outlined">delete</span></button>
             </div>
         </div>`
-    //aidcionar novo item no main
-        
+    
+    //adicionar novo item no main    
     main.innerHTML += novoItem;
 
     }
