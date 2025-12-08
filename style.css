@@ -165,6 +165,7 @@ main{
 }
 
 #clear-storage{
+    width: fit-content;
     margin: auto;
     background-color: black;
     border: 1px solid white;
