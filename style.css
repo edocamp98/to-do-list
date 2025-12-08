@@ -5,6 +5,11 @@
 }
 
 body{
+    display: flex;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: stretch;
     margin: 0;
     padding: 0;
     font-family: "Jacquard 24", system-ui;
@@ -159,4 +164,25 @@ main{
     cursor: pointer;
 }
 
- 
+#clear-storage{
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+#clear-storage:hover{
+    background-color: white;
+    transition: .8s;
+}
+
+#clear-storage > p{
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+#clear-storage > p:hover{
+    color: black;
+}
